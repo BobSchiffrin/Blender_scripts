@@ -1,16 +1,8 @@
 """
-Protein-bead generator for Blender (v3.0 – Fixed Boolean Operations)
+Protein-bead generator for Blender
 =====================================================================
 Creates complementary SOLID hemispheres ("beads") whose halves bind only
 when their lock-and-key features align. Designed for 3D printing.
-
-v3.0 improvements:
-* Fixed BOTH Boolean operations (UNION and DIFFERENCE) working reliably
-* Properly positioned pegs (UNION) and sockets (DIFFERENCE) with correct overlap
-* Optimized Z-positioning formulas for both operations
-* Combined best practices from previous versions
-* Uses the FAST solver which is more tolerant than EXACT for this workflow
-* Applies scale before boolean operations to prevent errors
 """
 
 import bpy
